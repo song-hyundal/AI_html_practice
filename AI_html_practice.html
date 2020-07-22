@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id='title'><h1>회원가입</h1></div>
+    <div id='main'>
+    <form action="https://server.ai-school.com" method='POST'>
 
-<form action="https://server.ai-school.com">
     <label for="user_id">아이디 :</label>
     <input id="user_id" type="text" name="userid" placeholder="아이디를 입력하세요"/>
     <br/>
@@ -27,7 +30,7 @@
     <textarea placeholder="P" cols='50' rows='20'>
     자기소개를 적어주세요.</textarea>
     <br>
-    <button type="submit">작성완료</button>
+    <button type="submit">제출</button>
 </form>
 
 </body>
